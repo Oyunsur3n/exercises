@@ -1,33 +1,99 @@
-// easy
-// 1.Print Numbers 1 to 10
-// 2.Sum of First 10 Natural Numbers
-// 3.Print Even Numbers 1 to 20
-// 4.Print Odd Numbers 1 to 20
-// 5.Count Down from 10 to 1
-// 6.Print Elements Greater Than 10
-// 7.Reverse an Array
-// 8.Sum of Array Elements
-// 9.Print Array Elements at Even Indexes
-// 10.Calculate Average of Array Elements
-// 11.Given a string change the every second letter to an uppercase ‘Z’. Assume there are no space.
+// 1.Print numbers from 1 to 10 .
+// 1 -> 10 хүртэл хэвлэнэ үү .
+// for example :  1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
-// medium
-// 1.Print a Triangle of Stars
-// 2.Check Prime Number
-// 3.Count Vowels in a String
-// 4.Sum of Digits of a Number
-// 5.Calculate Power (toonii zereg)
-// 6.Calculate Factorial
-// 7.Find Maximum Element in an Array
-// 8.Find Minimum Element in an Array
-// 9.Sum of Odd Numbers in an Array
-// 10.Find Common Elements from Arrays
-// 11.Write a JavaScript program that displays the largest integer among two integers.
+// 2.Sum of first 10 natural numbers .
+// Эхний 10 натурал тооны нийлбэрийг ол .
+// for example : 55
 
-// medium <-> hard
-// 1.Write a JavaScript conditional statement to find the largest 3 number from array.
-// 2.Iterate through all numbers from 1 to 45. Print the following: For multiples of 3 print “Fizz” , For multiples of 5 print “Buzz” , For multiples of 3 and 5 print “FizzBuzz”
-// 3.Given two arrays of integers. Add up each element in the same position and create a new array containing the sum of each pair. 
-// Assume both arrays are of the same length.
-// 4.Check Palindrome String
-// 5.
+// 3.Print even numbers 1 to 20 .
+// 1 - 20 хоорондох тэгш тоонуудыг хэвлэнэ үү .
+// for example : 2, 4, 6, ... , 20
+
+// 4.Print odd numbers 0 to 15 .
+// 0 - 15 хоорондох сондгой тоонуудыг хэвлэнэ үү .
+// for example : 1, 3, 5, ... , 15
+
+// 5.Print numbers from 10 to 1 .
+// 10 -> 1 хүртэл хэвлэнэ үү .
+// for example : 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+
+// 6.Given string change the every second letter to an ‘Z’. Assume there are no space.
+// Өгөгдсөн string-н 2дох үсэг болгоныг Z үсгээр солин бичнэ үү . Өгөгдсөн string дундаа зайгүй гэж үзнэ .
+// input : helloworld
+// for example : hZlZoZoZlZ
+
+// 7.Print a square of stars (*) .
+// (*) Од ашиглан дөрвөлжинг хэвлэнэ үү .
+// for example :
+// *****
+// *****
+// *****
+// *****
+
+// 8.Count vowels in given string .
+// Өгөгдсөн string-н эгшгүүдийг тоолно уу .
+// input : ilovecode
+// for example : 5
+
+// 9.Sum of digits of given number .
+// Өгөгдсөн тооны цифрүүдийн нийлбэрийг олно уу.
+// input : 7894560
+// for example : 39
+
+// 10.Calculate given number to power .
+// Өгөгдсөн тоог тухайн зэрэгт дэвшүүлнэ үү .
+// input : number = 6  degree=10
+// for example : 60466176
+
+// 11.Calculate factorial of given number.
+// Өгөгдсөн тооны факторалыг ол . (1 - ээс тухайн тоо хүртэлх тооны үржвэр)
+// input : 8
+// for example : 40320
+
+// 12.Calculate average of numbers from 12 to 36 .
+// 12 -> 36 хүртэлх тоонуудын дунджийг ол .
+// for example : 24
+
+// 13.Sum of odd and even numbers from 11 to 50 .
+// 11 -> 50 хүртэлх тоонуудын тэгш болон содгой тоонуудын нийлбэрийг ол .
+// for example : sumOdd = 600, sumEven = 620
+
+// 14.Iterate through all numbers from 1 to 45. Print the following: For multiples of 3 print “Fizz” , For multiples of 5 print “Buzz” , For multiples of 3 and 5 print “FizzBuzz”
+// 1 - 45 хүртэлх тоонуудын давталт гүйлгэж 3д хуваагдаж байвал “Fizz” , 5д хуваагдаж байвал “Buzz” , 3 болон 5д хуваагдаж байвал “FizzBuzz” гэж хэвлэнэ үү .
+// for example : number = 6 // Fizz , number = 8 // empty , number = 15 // FizzBuzz
+
+// 15.Check the given string is not a palindrome .
+// Өгөгдсөн string рalindrome үг мөн бишийг шалгаж мөн бол it is palindrome word биш бол it isn't palindrome word гэж хэвлэнэ үү.
+// input : repaper // it is palindrome
+// input : world // it isn't palindrome word
+
+// 16.Find the largest overlap of digits in the numbers from 123 to 200 .
+// 123 - 200 хүртэлх тоонуудын цифр хамгийн их давхацсаныг олно уу .
+// for example : 0 = 9 times , 2 = 15 times , 3 = 18 times
+
+// 17.Iterate through all numbers from 1 to 5 and from 20 to 16 . Add the corresponding value .
+// 1-5 , 20-16 гэсэн тоонуудаар давталт гүйлгэж харгалзах утгатай нь нэмнэ үү .
+// 1 , 2 , 3 , 4 , 5
+// 20 , 19 , 18 , 17 , 16
+// for example : 21 , 21 , 21 , 21 , 21
+
+// 18.Check the fifth power of given number is greater than 10000 .
+// Тооны таван зэрэг нь 10000-аас дээш эсэхийг шалгана уу .
+// for example :
+//      5 * 5 * 5 * 5 * 5 = 3125 // it is less than 10000
+//      8 * 8 * 8 * 8 * 8 = 32768 // it is greater than 10000
+
+// 19.N тоо өгөхөд NxN хэмжээтэй шатрын хөлөг буцаах .
+// Гаралт:
+// _#_
+// #_#
+// _#_
+
+// 20.Print a Pyramid of Stars (*) .
+// (*) Од ашиглан пирамидыг хэвлэнэ үү .
+// for example :
+//    *
+//   ***
+//  *****
+// *******
