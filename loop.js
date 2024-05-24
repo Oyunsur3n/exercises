@@ -1,3 +1,4 @@
+// easy
 // 1.Print numbers from 1 to 10 .
 // 1 -> 10 хүртэл хэвлэнэ үү .
 // for example :  1, 2, 3, 4, 5, 6, 7, 8, 9, 10
@@ -18,6 +19,7 @@
 // 10 -> 1 хүртэл хэвлэнэ үү .
 // for example : 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
 
+// medium
 // 6.Given string change the every second letter to an ‘Z’. Assume there are no space.
 // Өгөгдсөн string-н 2дох үсэг болгоныг Z үсгээр солин бичнэ үү . Өгөгдсөн string дундаа зайгүй гэж үзнэ .
 // input : helloworld
@@ -63,26 +65,27 @@
 // 1 - 45 хүртэлх тоонуудын давталт гүйлгэж 3д хуваагдаж байвал “Fizz” , 5д хуваагдаж байвал “Buzz” , 3 болон 5д хуваагдаж байвал “FizzBuzz” гэж хэвлэнэ үү .
 // for example : number = 6 // Fizz , number = 8 // empty , number = 15 // FizzBuzz
 
-// 15.Check the given string is not a palindrome .
-// Өгөгдсөн string рalindrome үг мөн бишийг шалгаж мөн бол it is palindrome word биш бол it isn't palindrome word гэж хэвлэнэ үү.
-// input : repaper // it is palindrome
-// input : world // it isn't palindrome word
-
-// 16.Find the largest overlap of digits in the numbers from 123 to 200 .
+// 15.Find the largest overlap of digits in the numbers from 123 to 200 .
 // 123 - 200 хүртэлх тоонуудын цифр хамгийн их давхацсаныг олно уу .
 // for example : 0 = 9 times , 2 = 15 times , 3 = 18 times
 
-// 17.Iterate through all numbers from 1 to 5 and from 20 to 16 . Add the corresponding value .
+// 16.Iterate through all numbers from 1 to 5 and from 20 to 16 . Add the corresponding value .
 // 1-5 , 20-16 гэсэн тоонуудаар давталт гүйлгэж харгалзах утгатай нь нэмнэ үү .
 // 1 , 2 , 3 , 4 , 5
 // 20 , 19 , 18 , 17 , 16
 // for example : 21 , 21 , 21 , 21 , 21
 
-// 18.Check the fifth power of given number is greater than 10000 .
+// 17.Check the fifth power of given number is greater than 10000 .
 // Тооны таван зэрэг нь 10000-аас дээш эсэхийг шалгана уу .
 // for example :
 //      5 * 5 * 5 * 5 * 5 = 3125 // it is less than 10000
 //      8 * 8 * 8 * 8 * 8 = 32768 // it is greater than 10000
+
+// hard
+// 18.Check the given string is not a palindrome .
+// Өгөгдсөн string рalindrome үг мөн бишийг шалгаж мөн бол it is palindrome word биш бол it isn't palindrome word гэж хэвлэнэ үү.
+// input : repaper // it is palindrome
+// input : world // it isn't palindrome word
 
 // 19.N тоо өгөхөд NxN хэмжээтэй шатрын хөлөг буцаах .
 // Гаралт:
@@ -97,3 +100,5 @@
 //   ***
 //  *****
 // *******
+
+// 21.Фибоначчийн тоон дараалал  a1 = a2 = 1 ба a(n+2)=a(n+1)+ an  гэж тодорхойлогддог.  Тус дарааллын 20 дох гишүүнийг 5-д ол.
