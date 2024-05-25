@@ -38,7 +38,7 @@
 // Declare a number value.
 // Number утга зарлана уу .
 
-// Declare a undefined value.
+// Declare an undefined value.
 // Undefined утга зарлана уу .
 
 // Declare a null value.
