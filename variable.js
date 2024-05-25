@@ -7,8 +7,8 @@
 // Declare a variable 'futureJob' without assigning a value.
 // futureJob гэсэн хувьсагчийг утга оноохгүйгээр зарлана уу .
 
-// Declare a variable named age, assign it your name.
-// age гэсэн хувьсагч зарлаад өөрийн насыг онооно уу .
+// Declare a variable 'age', assign it your name.
+// 'age' гэсэн хувьсагч зарлаад өөрийн насыг онооно уу .
 
 // Declare a variable 'PI' and assign it the value 3.14.
 // PI гэсэн тогтмол утга зарлаад 3.14 гэсэн утга онооно уу .

@@ -1,6 +1,6 @@
 // easy
 // 1.Print numbers from 1 to 10 .
-// 1 -> 10 хүртэл хэвлэнэ үү .
+// 1 -> 10 хүртэлх тоог хэвлэнэ үү .
 // for example :  1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
 // 2.Sum of first 10 natural numbers .
@@ -9,11 +9,11 @@
 
 // 3.Print even numbers 1 to 20 .
 // 1 - 20 хоорондох тэгш тоонуудыг хэвлэнэ үү .
-// for example : 2, 4, 6, ... , 20
+// for example : 2, 4, 6, ... , 20 
 
 // medium
-// 4.Given string change the every second letter to an ‘Z’. Assume there are no space.
-// Өгөгдсөн string-н 2дох үсэг болгоныг Z үсгээр солин бичнэ үү . Өгөгдсөн string дундаа зайгүй гэж үзнэ .
+// 4. Change every second letter of a given string to an ‘Z’. Assume there are no space.
+// Өгөгдсөн string-н 2дох үсэг болгоныг 'Z' үсгээр солин бичнэ үү . Өгөгдсөн string дундаа зайгүй гэж үзнэ .
 // input : helloworld
 // for example : hZlZoZoZlZ
 
@@ -45,7 +45,7 @@
 // for example : 24
 
 // 10.Sum of odd and even numbers from 11 to 50 .
-// 11 -> 50 хүртэлх тоонуудын тэгш болон содгой тоонуудын нийлбэрийг ол .
+// 11 -> 50 хүртэлх тоонуудын тэгш болон сондгой тоонуудын нийлбэрийг ол .
 // for example : sumOdd = 600, sumEven = 620
 
 // 11.Iterate through all numbers from 1 to 45. Print the following: For multiples of 3 print “Fizz” , For multiples of 5 print “Buzz” , For multiples of 3 and 5 print “FizzBuzz”

@@ -6,7 +6,7 @@
 // 2.Check age for driving.
 // Өгөгдсөн насыг шалгаад 18-аас дээш бол "You are old enough to drive", 18-аас доош бол 18 хүрэхэд дутуу байгаа жилтэй нь хамт "You are left with 3 years to drive" гэж хэвлэнэ үү . 
 
-// 3.Check the given number is odd or even .
+// 3.Check if the given number is odd or even .
 // Өгөгдсөн тоог шалгаад тэгш тоо бол "even" , сондгой тоо бол "odd" гэж хэвлэнэ үү .
 
 // 4.Check if a given number is divisible by 5 .
@@ -15,16 +15,16 @@
 // 5.Check if a given number is within the range of 1 to 100 .
 // Өгөгдсөн тоо 1-ээс 100-н хооронд байвал "include" , байхгүй бол "exclude" гэж хэвлэнэ үү .
 
-// 6.Check if a password is strong (starong password is at least 8 characters long) .
-// Пасспортыг хүчтэй үгүйг шалгаад хүчтэй бол "strong" , сул бол "weak" гэж хэвлэнэ үү. Багадаа 8 тэмдэгт агуулвал хүчтэй гэж тооцно .
+// 6.Check if a password is strong (strong password is at least 8 characters long) .
+// Нууц үгийг хүчтэй үгүйг шалгаад хүчтэй бол "strong", сул бол "weak" гэж хэвлэнэ үү. Багадаа 8 тэмдэгт агуулвал хүчтэй гэж тооцно .
 
 // medium
-// 7.Categorize age group (children, youth, adults , seniors) .
-// Өгөгдсөн нас нь 14-өөс доош бол "Children", 14-24 бол "Youth" , 24-64 бол "Adults" , 64-өөс дээш бол "Seniors" гэж хэвлэнэ үү .
+// 7.Categorize age group (children, youth, adults, seniors) .
+// Өгөгдсөн нас нь 14-өөс доош бол "Children", 14-24 бол "Youth", 24-64 бол "Adults", 64-өөс дээш бол "Seniors" гэж хэвлэнэ үү .
 
 // 8.Check triangle validity . 
 // Өгөгдсөн гурвалжны гурван талыг зөв эсэхийг шалгана уу .
-// for example : 
+// Жишээ нь: 
 //      a=5 b=6 c=7 / is valid 
 //      a=4 b=8 c=19 / is invalid 
 
@@ -34,16 +34,16 @@
 // 10.Check if a given character is a vowel or a consonant .
 // Өгөгдсөн үсгийг шалгаад эгшиг бол "vowel" , гийгүүлэгч бол "consonant" гэж хэвлэнэ үү .
 
-// 11.Check year is an Olympic year
+// 11.Check if year is an Olympic year. 
 // Өгөгдсөн жил нь Олимпийн жил мөн бишийг шалгаад хэвлэнэ үү .
 
 // 12.Амралтын өдөр эсвэл ажлын өдөр эсэхийг шалгаарай. 
-// Өгөгдсөн өдөр ажлын өдөр бол "working day" , амралтын өдөр бол "weekend" гэж хэвлэнэ үү .
+// Өгөгдсөн өдөр ажлын өдөр бол "work day" , амралтын өдөр бол "weekend" гэж хэвлэнэ үү .
 // for example : 
-//      day = Thursday / working day  
+//      day = Thursday / work day  
 //      day = Saturday / weekend 
 
-// 13.Check the given number is not a prime number .
+// 13.Check if the given number is a prime number or not .
 // Өгөгдсөн тоог анхны тоо мөн бишийг шалгана уу . (1 болон өөртөө хуваагддаг тоог анхны тоо гэнэ)
 // example : 
 // number = 2 // true

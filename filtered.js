@@ -12,15 +12,15 @@
 // 18 < old <=21 үед "Young adult"
 // 21 < old үед "Adult"
 
-// 4.3-н хувьсагч зарлана уу. (a, b ,c)
-// Дурын тоон утгууд хувьсагчдад онооно уу
+// 4. 3-н хувьсагч зарлана уу. (a, b ,c)
+// Дурын тоон утгуудыг хувьсагчдад онооно уу
 // Дараа нь тухайн өгөгдсөн хувьсагчдаас хамгийн их утгатай хувьсагчийг console дээр хэвлэнэ үү
 // Бас тухайн өгөгдсөн хувьсагчдаас хамгийн бага утгатай хувьсагчийг console дээр хэвлэнэ үү
 // Тухайн утгууд нь хоорондоо бас тэнцүү байж болохыг анхаарна уу. Жишээ нь a = 5, b = 5, c = 5. Тэгвэл "equal" гэж хэвлэнэ үү.
 
 //loop
 // 5.Print numbers from 10 to 1 .
-// 10 -> 1 хүртэл хэвлэнэ үү .
+// 10 -> 1 хүртэл тоог хэвлэнэ үү .
 // for example : 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
 
 // 6.Print odd numbers 0 to 15 .
@@ -45,9 +45,9 @@
 // for example : 5
 
 // 11.Iterate through all numbers from 50 to 130. Print the following: For multiples of 6 print “Corn” , For multiples of 9 print "Dog" , For multiples of 6 and 9 print "CornDog"
-// 50 - 130 хүртэлх тоонуудын давталт гүйлгэж 6д хуваагдаж байвал “Corn” , 5д хуваагдаж байвал "Dog" , 3 болон 5д хуваагдаж байвал "CornDog" гэж хэвлэнэ үү .
+// 50 - 130 хүртэлх тоонуудын давталт гүйлгэж 6д хуваагдаж байвал “Corn” , 9д хуваагдаж байвал "Dog" , 6 болон 9д хуваагдаж байвал "CornDog" гэж хэвлэнэ үү .
 
 // 12.Check the given string is not a palindrome .
-// Өгөгдсөн string рalindrome үг мөн бишийг шалгаж мөн бол it is palindrome word биш бол it isn't palindrome word гэж хэвлэнэ үү.
+// Өгөгдсөн string рalindrome үг мөн бишийг шалгаж мөн бол "it is palindrome word" биш бол "it is not palindrome word" гэж хэвлэнэ үү. Palindrome үг гэдэг нь 2 талаасаа ижил уншигддаг үгийг хэлнэ.
 // input : repaper // it is palindrome
 // input : world // it isn't palindrome word
