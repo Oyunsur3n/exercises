@@ -1,6 +1,5 @@
 // easy
 // 1.Check if given number is positive, negative, or zero .
-// declare random number and 
 // Өгөгдсөн тоо эерэг бол "positive" , сөрөг бол "negative" , 0 бол "zero" гэж хэвлэнэ үү . console.log("the number is positive")
 
 // 2.Check age for driving.
