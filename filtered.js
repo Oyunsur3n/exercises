@@ -1,7 +1,7 @@
 // condition
 // 1. pinecone гэсэн үгийн үсгүүдийг агуулсан бол "pineconer" , агуулаагүй бол "isn't include" гэж хэвлэнэ үү .
 
-// 2. Сарын дугаар буюу 1<=n=>12 ийм байх n тоог өгөхөд тухайн сарын өдрийн тоог хэвлэнэ.Хэрэв 2 дугаар сар бол жил мөн өгөгдөх ба 28 эсвэл 29 тохирохыг хэвлэнэ .
+// 2. Сарын дугаар буюу 1<=n=>12 ийм байх n тоог өгөхөд тухайн сар хэдэн өдөртэйг нь хэвлэнэ. Хэрэв 2-р сар бол 28 гэж хэвлэнэ .
  
 // 3.yearOfBirth гэсэн хувьсагчид төрсөн оныг оноож өгнө үү. Тухайн оноос тухайн хүний насыг нь бодож гаргаад үр дүнгээ old гэсэн хувьсагчид оноо. Насанд нь харгалзах утгыг хэвлэ.
 // 0 <= old <= 1 үед "Infant"
@@ -31,13 +31,11 @@
 
 // 8.Өгөгдсөн эерэг тооны урвууг хэвлэх программ бич // 123 <=> 321
 
-// 9.Print a triangle of stars (*) .
-// (*) Од ашиглан гурвалжинг хэвлэнэ үү .
-// for example :
-// *
-// **
-// ***
-// ****
+// 9.Check the fifth power of given number is greater than 10000 . 
+// Тооны таван зэрэг нь 10000-аас дээш эсэхийг шалгана уу .
+// for example : 
+//      5 * 5 * 5 * 5 * 5 = 3125 // it is less than 10000
+//      8 * 8 * 8 * 8 * 8 = 32768 // it is greater than 10000 yes 
 
 // 10.Count vowels in given string .
 // Өгөгдсөн string-н эгшгүүдийг тоолно уу .
@@ -45,9 +43,10 @@
 // for example : 5
 
 // 11.Iterate through all numbers from 50 to 130. Print the following: For multiples of 6 print “Corn” , For multiples of 9 print "Dog" , For multiples of 6 and 9 print "CornDog"
-// 50 - 130 хүртэлх тоонуудын давталт гүйлгэж 6д хуваагдаж байвал “Corn” , 9д хуваагдаж байвал "Dog" , 6 болон 9д хуваагдаж байвал "CornDog" гэж хэвлэнэ үү .
+// 50 - 130 хүртэлх тоонуудын давталт гүйлгэж 6-д хуваагдаж байвал “Corn” , 9д хуваагдаж байвал "Dog" , 6 болон 9д хуваагдаж байвал "CornDog" гэж хэвлэнэ үү .
 
-// 12.Check the given string is not a palindrome .
+// 12.Check if the given string is not a palindrome .
 // Өгөгдсөн string рalindrome үг мөн бишийг шалгаж мөн бол "it is palindrome word" биш бол "it is not palindrome word" гэж хэвлэнэ үү. Palindrome үг гэдэг нь 2 талаасаа ижил уншигддаг үгийг хэлнэ.
 // input : repaper // it is palindrome
 // input : world // it isn't palindrome word
+
