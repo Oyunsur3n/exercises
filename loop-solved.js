@@ -51,6 +51,16 @@ for (let i=0; i < size; i ++){
 // Өгөгдсөн тооны цифрүүдийн нийлбэрийг олно уу.
 // input : 7894560
 // for example : 39
+let input = 12345
+
+let sum6= 0;
+let numberString = input.toString();
+
+for (let i=0; i < numberString.length; i++){
+    sum6 += input % 10;
+    input = Math.floor(input / 10)
+}
+console.log(sum6)
 
 // 7.Calculate given number to power .
 // Өгөгдсөн тоог тухайн зэрэгт дэвшүүлнэ үү .
@@ -141,16 +151,16 @@ for (let i = 1; i <= 45; i++) {
 // 1 , 2 , 3 , 4 , 5
 // 20 , 19 , 18 , 17 , 16
 // for example : 21 , 21 , 21 , 21 , 21
-let total = 0;
 
-// Iterate from 1 to 5
+// Iterate from 1 to 5 
+let total = 0;
 for (let i = 1; i <= 5; i++) {
     total += i;
 }
 
 // Iterate from 20 to 16
 for (let i = 20; i >= 16; i--) {
-    stotalum += i;
+    total += i;
 }
 console.log("Sum of numbers from 1 to 5 and from 20 to 16:", total);
 
@@ -159,7 +169,8 @@ console.log("Sum of numbers from 1 to 5 and from 20 to 16:", total);
 // Тооны таван зэрэг нь 10000-аас дээш эсэхийг шалгана уу .
 // for example : 
 //      5 * 5 * 5 * 5 * 5 = 3125 // it is less than 10000
-//      8 * 8 * 8 * 8 * 8 = 32768 // it is greater than 10000 yes 
+//      8 * 8 * 8 * 8 * 8 = 32768 // it is greater than 10000 
+
 
 // hard
 // 15.N тоо өгөхөд NxN хэмжээтэй шатрын хөлөг буцаах .

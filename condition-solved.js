@@ -86,16 +86,18 @@ if (a + b > c && a + c > b && b + c > a) {
 
 // 9.Find the largest of two number .
 // 2 тооноос ихийг нь олж хэвлэнэ үү .
-let x = 20;
-let y = 30;
+let x = 30;
+let y = 40;
 
 let larger;
 
 if (x > y) {
     larger = x;
-} else {
+} else if (x < y){
     larger = y;
-}
+} else if  (x == y ){
+    console.log("Two numbers are equal")
+} 
 console.log("The larger number is:", larger);
 
 // 10.Check if a given character is a vowel or a consonant .
@@ -118,7 +120,6 @@ if (character === 'a') {
     console.log(character + ' is not a valid alphabet character.');
 }
 
-
 // 11.Check if year is an Olympic year. 
 // Өгөгдсөн жил нь Олимпийн жил мөн бишийг шалгаад хэвлэнэ үү .
 let year = 2024; 
@@ -136,12 +137,25 @@ if ((year - firstOlympicYear) % 4 === 0 && year >= firstOlympicYear) {
 // for example : 
 //      day = Thursday / work day  
 //      day = Saturday / weekend 
-let day = 5; 
+let dayNumber = 4;
+let dayName 
 
-if (day >= 1 && day <= 5) {
-    console.log('The day is a workday.');
-} else if (day === 6 || day === 7) {
-    console.log('The day is a weekend.');
+let days = {
+    1: 'Monday',
+    2: 'Tuesday',
+    3: 'Wednesday',
+    4: 'Thursday',
+    5: 'Friday',
+    6: 'Saturday',
+    7: 'Sunday'
+}
+
+if (dayNumber >= 1 && dayNumber <= 5) {
+    dayName = days[dayNumber];
+    console.log(`${dayName} is a workday.`);
+} else if (dayNumber === 6 || dayNumber === 7) {
+    dayName = days[dayNumber];
+    console.log(`${dayName} is a weekend.`);
 } else {
     console.log('Invalid day.'); 
 }

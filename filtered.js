@@ -7,9 +7,9 @@
 // 0 <= old <= 1 үед "Infant"
 // 1 < old <= 3 үед "Toddler"
 // 3 < old <= 5 үед "Preschool"
-// 5 < old <=12 үед "Gradeschooler"
-// 12 <old <= 18 үед "Teen"
-// 18 < old <=21 үед "Young adult"
+// 5 < old <= 12 үед "Gradeschooler"
+// 12 < old <= 18 үед "Teen"
+// 18 < old <= 21 үед "Young adult"
 // 21 < old үед "Adult"
 
 // 4. 3-н хувьсагч зарлана уу. (a, b ,c)
@@ -49,4 +49,3 @@
 // Өгөгдсөн string рalindrome үг мөн бишийг шалгаж мөн бол "it is palindrome word" биш бол "it is not palindrome word" гэж хэвлэнэ үү. Palindrome үг гэдэг нь 2 талаасаа ижил уншигддаг үгийг хэлнэ.
 // input : repaper // it is palindrome
 // input : world // it isn't palindrome word
-
