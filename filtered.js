@@ -2,7 +2,7 @@
 // 1. pinecone гэсэн үгийн үсгүүдийг агуулсан бол "pineconer" , агуулаагүй бол "isn't include" гэж хэвлэнэ үү .
 
 // 2. Сарын дугаар буюу 1<=n=>12 ийм байх n тоог өгөхөд тухайн сар хэдэн өдөртэйг нь хэвлэнэ. Хэрэв 2-р сар бол 28 гэж хэвлэнэ .
- 
+
 // 3.yearOfBirth гэсэн хувьсагчид төрсөн оныг оноож өгнө үү. Тухайн оноос тухайн хүний насыг нь бодож гаргаад үр дүнгээ old гэсэн хувьсагчид оноо. Насанд нь харгалзах утгыг хэвлэ.
 // 0 <= old <= 1 үед "Infant"
 // 1 < old <= 3 үед "Toddler"
@@ -30,12 +30,20 @@
 // 7.Есийн цифрээс өгөгдсөн цифр хүртэл нэг нэгээр нэг мөрөнд хэвлэ.
 
 // 8.Өгөгдсөн эерэг тооны урвууг хэвлэх программ бич // 123 <=> 321
+let number = "123";
+let reversed = "";
 
-// 9.Check the fifth power of given number is greater than 10000 . 
+for (let i = number.length - 1; i >= 0; i--) {
+  reversed += number[i];
+}
+
+console.log(reversed);
+
+// 9.Check the fifth power of given number is greater than 10000 .
 // Тооны таван зэрэг нь 10000-аас дээш эсэхийг шалгана уу .
-// for example : 
+// for example :
 //      5 * 5 * 5 * 5 * 5 = 3125 // it is less than 10000
-//      8 * 8 * 8 * 8 * 8 = 32768 // it is greater than 10000 yes 
+//      8 * 8 * 8 * 8 * 8 = 32768 // it is greater than 10000 yes
 
 // 10.Count vowels in given string .
 // Өгөгдсөн string-н эгшгүүдийг тоолно уу .

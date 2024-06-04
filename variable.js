@@ -1,13 +1,15 @@
 // Declare a variable named 'carName', assign the value 'Volvo' to it.
 // carName гэсэн хувьсагч зарлаад Volvo гэсэн утга онооно уу .
+let carName = "Volvo";
+console.log(carName);
 
 // Declare a variable named 'name' , assign it your name.
 // name гэсэн хувьсагч зарлаад өөрийнхөө нэрийг онооно уу .
 
 // Declare a variable 'futureJob' without assigning a value.
 // futureJob гэсэн хувьсагчийг утга оноохгүйгээр зарлана уу .
-
-// Declare a variable 'age', assign it your name.
+let futureJob;
+// Declare a variable 'age', assign it your age.
 // 'age' гэсэн хувьсагч зарлаад өөрийн насыг онооно уу .
 
 // Declare a variable 'PI' and assign it the value 3.14.
@@ -16,8 +18,8 @@
 // Display the sum of 5 + 10, using two variables: x and y.
 // x ба y гэсэн хоёр хувьсагчийг ашиглан 5 + 10-ын нийлбэрийг харуулна уу .
 
-// Declare three variables for each let , const. 
-// for example : const motherName = 'Chimgee' ; let presidentName = 'Khurelsukh' 
+// Declare three variables for each let , const.
+// for example : const motherName = 'Chimgee' ; let presidentName = 'Khurelsukh'
 // let , const тус бүрт нь 3 хувьсагч зарлана уу .
 
 // Declare a variable 'city' and assign it a city name, then reassign it to another city.
